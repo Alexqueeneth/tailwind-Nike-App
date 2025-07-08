@@ -1,5 +1,5 @@
 import React from 'react'
-import {headerLogo} from '../assets/images';
+import {headerlogo} from '../assets/images';
 import {hamburger} from '../assets/icons';
 import {navLinks} from '../Constants'
 
@@ -8,7 +8,7 @@ const Nav = () => {
 <header className='padding-x py-8 absolute z-10 w-full'>
     <nav className='flex justify-between items-center max-container'>
         <a href='/'>
-        <img src={headerLogo}
+        <img src={headerlogo}
         alt='Logo'
         width={130}
         height={29}
